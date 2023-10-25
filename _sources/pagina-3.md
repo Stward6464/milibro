@@ -13,41 +13,10 @@ kernelspec:
 ---
 
 # pagina 3
+# Aprendizaje por Reforzamiento (Reinforcement Learning)
 
-Jupyter Book also lets you write text-based notebooks using MyST Markdown.
-See [the Notebooks with MyST Markdown documentation](https://jupyterbook.org/file-types/myst-notebooks.html) for more detailed instructions.
-This page shows off a notebook written in MyST Markdown.
+El Aprendizaje por Reforzamiento (Reinforcement Learning, en inglés) es un enfoque de aprendizaje automático en el que un agente interactúa con un entorno y toma decisiones para maximizar una recompensa acumulativa a lo largo del tiempo. A través de la interacción repetida, el agente aprende a identificar las acciones que conducen a las recompensas más altas y las que deben evitarse.
 
-## An example cell
+En el aprendizaje por refuerzo, el agente no recibe ejemplos etiquetados como en otros enfoques de aprendizaje automático, como el aprendizaje supervisado. En cambio, el agente explora el entorno y ajusta su estrategia de toma de decisiones en función de las recompensas y penalizaciones que recibe. Este enfoque se ha utilizado en una variedad de aplicaciones, incluidos juegos, robótica, recomendación de contenido y control de procesos.
 
-With MyST Markdown, you can define code cells with a directive like so:
-
-```{code-cell}
-print(2 + 2)
-```
-
-When your book is built, the contents of any `{code-cell}` blocks will be
-executed with your default Jupyter kernel, and their outputs will be displayed
-in-line with the rest of your content.
-
-```{seealso}
-Jupyter Book uses [Jupytext](https://jupytext.readthedocs.io/en/latest/) to convert text-based files to notebooks, and can support [many other text-based notebook files](https://jupyterbook.org/file-types/jupytext.html).
-```
-
-## Create a notebook with MyST Markdown
-
-MyST Markdown notebooks are defined by two things:
-
-1. YAML metadata that is needed to understand if / how it should convert text files to notebooks (including information about the kernel needed).
-   See the YAML at the top of this page for example.
-2. The presence of `{code-cell}` directives, which will be executed with your book.
-
-That's all that is needed to get started!
-
-## Quickly add YAML metadata for MyST Notebooks
-
-If you have a markdown file and you'd like to quickly add YAML metadata to it, so that Jupyter Book will treat it as a MyST Markdown Notebook, run the following command:
-
-```
-jupyter-book myst init path/to/markdownfile.md
-```
+El aprendizaje por refuerzo se inspira en la psicología conductual y se ha convertido en un campo importante en la inteligencia artificial, con algoritmos y modelos como Q-learning y redes neuronales profundas que han demostrado un gran éxito en la resolución de problemas complejos.
