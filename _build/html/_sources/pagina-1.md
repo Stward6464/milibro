@@ -1,55 +1,29 @@
-# pagina 1
+# Pagina 1
+# El impacto de la inteligencia artificial (IA) en la sociedad y en diversos sectores es significativo y sigue evolucionando.
 
-Whether you write your book's content in Jupyter Notebooks (`.ipynb`) or
-in regular markdown files (`.md`), you'll write in the same flavor of markdown
-called **MyST Markdown**.
-This is a simple file to help you get started and show off some syntax.
+Automatización: La IA está transformando la automatización de tareas y procesos en una variedad de industrias. Esto puede aumentar la eficiencia y reducir los costos, pero también plantea preguntas sobre la pérdida de empleos en ciertos sectores.
 
-## What is MyST?
+Atención médica: La IA se utiliza en diagnósticos médicos, investigación farmacéutica y gestión de registros médicos. Puede ayudar a acelerar el descubrimiento de tratamientos y mejorar la atención al paciente.
 
-MyST stands for "Markedly Structured Text". It
-is a slight variation on a flavor of markdown called "CommonMark" markdown,
-with small syntax extensions to allow you to write **roles** and **directives**
-in the Sphinx ecosystem.
+Transporte: Los vehículos autónomos, que dependen en gran medida de la IA, están cambiando la industria del transporte y pueden afectar el empleo en áreas como la conducción de camiones y taxis.
 
-For more about MyST, see [the MyST Markdown Overview](https://jupyterbook.org/content/myst.html).
+Finanzas: La IA se utiliza en la toma de decisiones financieras, gestión de riesgos, detección de fraudes y operaciones comerciales. Esto puede optimizar los procesos financieros, pero también puede introducir riesgos nuevos y complejos.
 
-## Sample Roles and Directives
+Educación: La IA se está utilizando para personalizar la educación, proporcionando a los estudiantes recursos adaptados a sus necesidades individuales.
 
-Roles and directives are two of the most powerful tools in Jupyter Book. They
-are kind of like functions, but written in a markup language. They both
-serve a similar purpose, but **roles are written in one line**, whereas
-**directives span many lines**. They both accept different kinds of inputs,
-and what they do with those inputs depends on the specific role or directive
-that is being called.
+Servicios al cliente: Los chatbots y asistentes virtuales impulsados por IA se utilizan para mejorar el soporte al cliente y la experiencia del usuario en una variedad de industrias.
 
-Here is a "note" directive:
+Industria manufacturera: La IA se utiliza en la optimización de la cadena de suministro, la calidad de los productos y el mantenimiento predictivo de maquinaria.
 
-```{note}
-Here is a note
-```
+Seguridad y defensa: La IA se aplica en sistemas de seguridad cibernética, reconocimiento de patrones y toma de decisiones en operaciones militares.
 
-It will be rendered in a special box when you build your book.
+Arte y creatividad: La IA se está utilizando en la generación de música, arte y escritura, lo que plantea preguntas sobre la originalidad y la autoría.
 
-Here is an inline directive to refer to a document: {doc}`markdown-notebooks`.
+Ética y privacidad: La IA plantea preocupaciones sobre la privacidad de los datos, la toma de decisiones sesgadas y la falta de transparencia en los algoritmos.
 
+Desempleo tecnológico: A medida que la automatización y la IA continúan desarrollándose, existe preocupación sobre la posibilidad de que ciertos trabajos sean reemplazados, lo que podría requerir un replanteamiento de la formación y la educación.
 
-## Citations
+Economía y competitividad: La IA tiene un impacto significativo en la economía global, con países y empresas compitiendo por el liderazgo en esta tecnología.
 
-You can also cite references that are stored in a `bibtex` file. For example,
-the following syntax: `` {cite}`holdgraf_evidence_2014` `` will render like
-this: {cite}`holdgraf_evidence_2014`.
-
-Moreover, you can insert a bibliography into your page with this syntax:
-The `{bibliography}` directive must be used for all the `{cite}` roles to
-render properly.
-For example, if the references for your book are stored in `references.bib`,
-then the bibliography is inserted with:
-
-```{bibliography}
-```
-
-## Learn more
-
-This is just a simple starter to get you started.
-You can learn a lot more at [jupyterbook.org](https://jupyterbook.org).
+## Leer mas 
+Puedes leer mas en  [www.csic.es](https://www.csic.es/es/actualidad-del-csic/el-impacto-de-la-inteligencia-artificial-en-nuestra-sociedad-retos-y#:~:text=La%20inteligencia%20artificial%20puede%20ser%20el%20catalizador%20de%20nuevos%20cambios,de%20las%20condiciones%20de%20vida.).
