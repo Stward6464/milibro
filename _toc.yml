@@ -6,4 +6,5 @@ root: intro
 chapters:
 - file: pagina-1
 - file: pagina-2
+  title: pagina 2
 - file: pagina-3
