@@ -7,5 +7,8 @@ En este libro, encontrarás ejemplos prácticos, gráficos interactivos y fragme
 Accede a Jupyter-book aqui -->[Jupyter-book Web oficial](https://jupyterbook.org).
 
 
+¡Hablaremos sobre las I.A en la actualidad!
+
+
 ```{tableofcontents}
 ```
